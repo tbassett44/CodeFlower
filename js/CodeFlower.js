@@ -36,8 +36,11 @@ CodeFlower.prototype.update = function(json) {
   this.svg.selectAll("text").remove();
 
   // Restart the force layout
+  var tolerance=.05;
+  if(this.h<600) tolerance=.2;
   this.force
-    .gravity(Math.atan(total / 50) / Math.PI * 0.4)
+    .size([this.w,this.h])
+    .gravity(tolerance)//Math.atan(total / 50) / Math.PI * 0.4)
     .nodes(nodes)
     .links(links)
     .start();
