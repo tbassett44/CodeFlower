@@ -2,7 +2,7 @@
 <html style="position:relative;width:100%;height:100%;margin:0px;padding:0px;">
   <!-- Use the Source, Luke -->
   <head>
-    <title>CodeFlower Source code visualization</title>
+    <title>GroupUp.me Code Visualization</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link type="text/css" rel="stylesheet" href="stylesheets/bootstrap.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
